@@ -22,6 +22,7 @@ public class LinebotHandler {
         return new TextMessage(originalMessageText);
     }
 
+
     @EventMapping
     public void handleDefaultMessageEvent(Event event) {
         System.out.println("event: " + event);
